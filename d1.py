@@ -49,3 +49,8 @@ def sftp_download(url, port, username, password, sftp_path, folder_path):
 
     sftp.close()
     transport.close()
+
+
+sftp_download("direct.virtaicloud.com", 19001, "xrVEMpYjvp", "lBlAjcCIxO", "/upload/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger/models", "/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger/models")
+sftp_download("direct.virtaicloud.com", 19001, "xrVEMpYjvp", "lBlAjcCIxO", "/upload/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/models--yzd-v--DWPose/snapshots/1a7144101628d69ee7a3768d1ee3a094070dc388", "/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/models--yzd-v--DWPose/snapshots/1a7144101628d69ee7a3768d1ee3a094070dc388")
+sftp_download("direct.virtaicloud.com", 19001, "xrVEMpYjvp", "lBlAjcCIxO", "/upload/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/models--yzd-v--DWPose/refs", "/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts/models--yzd-v--DWPose/refs")
