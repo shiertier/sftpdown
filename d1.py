@@ -49,7 +49,3 @@ def sftp_download(url, port, username, password, sftp_path, folder_path):
 
     sftp.close()
     transport.close()
-
-# 使用示例
-sftp_download("direct.virtaicloud.com", 19001, "vFtTEqNgxV", "pmthkPqNL9", "/upload/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger/models", "/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger/models")
-sftp_download("direct.virtaicloud.com", 19001, "vFtTEqNgxV", "pmthkPqNL9", "/upload/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts", "/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts")
